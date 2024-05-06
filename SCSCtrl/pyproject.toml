@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SCSCtrl"
+version = "0.0.0"
+authors = [
+  { name="waveshare", email="support@waveshare.com" },
+]
+description = "TTLServoCtrl"
+readme = "./README.md"
+requires-python = ">=3.6"  # Set a Python version requirement if needed
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyserial",
+    "imutils",
+]
+
+[project.urls]
+Homepage = "http://waveshare.com/"
